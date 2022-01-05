@@ -74,3 +74,33 @@ section#dream {
 section#hero img {
     float: right;
 }
+
+section#experience {
+    margin-top: 100px;
+}
+
+
+
+.experience_content {
+    display: flex;
+    width: 90%;
+    margin: 25px auto;
+    justify-content: space-between;
+}
+
+section#experience h1 {
+    font-weight: 500;
+    font-size: 37px;
+}
+
+.experience_box {
+    flex-basis: 47%;
+    box-shadow: 0px 0px 14px 3px #000;
+    padding: 47px 26px;
+    box-sizing: border-box;
+    border-left: 5px solid;
+}
+
+.experience_box h3 {
+    margin: 15px 0px;
+}
