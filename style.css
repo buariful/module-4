@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Poppins;
+}
+h1{
+    font-size:50px;
+    text-transform:uppercase;
+    
+}
+section#hero{
+    background-image: url(img/top-banner.png);
+    background-repeat:no-repeat;
+}
+.banner {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.oranged-color{
+    color:orange;
+}
+.section_half {
+    flex-basis: 46%;
+}
+
+.section_half img {
+    max-width: 93%;
+    float: right;
+}
+
+
+
+.section_half h1 {
+    margin-top: 32px;
+    font-weight: 500;
+}
+
+.section_half h3 {
+    margin: 5px 0 15px;
+    font-weight: 500;
+}
+
+.section_half p {
+    color: #696969;
+}
+
+.section_half a {
+    color: #fff;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+
+section#dream {
+    margin-top: 108px;
+}
+
+#dream img {
+    float: left;
+}
+
+section#hero img {
+    float: right;
+}
